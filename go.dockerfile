@@ -1,5 +1,5 @@
 FROM golang:1.12-alpine
 
-ADD . ./
+ADD . /var/www
 
 EXPOSE 8000
